@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/redd"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Question"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textStyle="bold|italic"/>
+    <TextView
+        android:paddingLeft="30dp"
+        android:text="Name"
+        android:textColor="@color/white"
+        android:background="@color/material_blue_grey_800"
+        android:textSize="10sp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:id="@+id/textView2"
+        >
+    </TextView>
+
+
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="50"
+        android:background="@color/background_material_light"
+        android:id="@+id/replylist">
+
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:textColor="@color/white"
+            android:hint="Reply.."
+            android:layout_weight="8"
+            android:id="@+id/reply"
+            android:textSize="16sp"
+            />
+
+
+        <Button
+            android:layout_marginLeft="5dp"
+            android:text="Submit"
+            android:layout_weight="20"
+            android:background="@android:color/holo_red_dark"
+            android:textColor="@android:color/background_light"
+            android:layout_marginRight="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:id="@+id/btnsubmit" />
+
+    </LinearLayout>
+</LinearLayout>

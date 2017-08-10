@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.prp.studybuddy.signup_2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Preferences"
+            android:textSize="30dp"
+            android:id="@+id/tvpreferences"
+            android:textColor="@color/red"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="cursive"
+            android:textStyle="bold|italic"
+            android:layout_margin="50dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/Linear"
+        android:visibility="gone">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textColor="@color/redd"
+        android:textSize="15dp"
+        android:layout_marginLeft="20dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextname"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="@color/black"
+        android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="30dp"
+            android:text="C"
+            android:id="@+id/cbc"
+            android:textColor="@color/red"
+            android:textSize="17dp" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C++"
+            android:layout_marginLeft="40dp"
+            android:id="@+id/cbcbp"
+            android:textColor="@color/red"
+            android:textSize="17dp"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Java"
+            android:layout_marginLeft="40dp"
+            android:id="@+id/cbjava"
+            android:textColor="@color/red"
+            android:textSize="17dp"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Android"
+            android:layout_marginLeft="40dp"
+            android:id="@+id/cbandroid"
+            android:textColor="@color/red"
+            android:textSize="17dp"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Python"
+            android:layout_marginLeft="40dp"
+            android:id="@+id/cbpython"
+            android:textColor="@color/red"
+            android:textSize="17dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:text="NEXT"
+            android:id="@+id/tvnext"
+            android:background="@drawable/mybutton"
+            android:alpha="0.7"
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
